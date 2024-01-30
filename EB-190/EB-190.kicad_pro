@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|250105317|149340150|8b6492aa-a016-4376-8573-6bb61f56b903|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|300420602|148959937|40c55091-c77a-42d6-afd2-7ac955b38887|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -106,7 +109,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -521,7 +524,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Output/STEP/EB-190.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
